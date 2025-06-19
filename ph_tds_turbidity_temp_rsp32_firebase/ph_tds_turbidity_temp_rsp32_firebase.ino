@@ -6,14 +6,14 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 // Wi-Fi Credentials
-const char* ssid = "Water Quality Monitor";
-const char* password = "12345678";
+const char* ssid = "your wifi ssid";
+const char* password = "your wifi password";
 
 // Firebase Credentials
-#define API_KEY "AIzaSyBkaCYH1y0TXJW9n2UmeesGOrmy0N9zKOY"
-#define DATABASE_URL "https://water-quality-monitor-cdf19-default-rtdb.asia-southeast1.firebasedatabase.app/"
-#define USER_EMAIL "mdsaiful000ms@gmail.com"
-#define USER_PASSWORD "123456789"
+#define API_KEY "your firebase project api key"
+#define DATABASE_URL "your firebase database url"
+#define USER_EMAIL "your firebase project user mail"
+#define USER_PASSWORD "your firebase project user password"
 
 FirebaseData fbdo;
 FirebaseAuth auth;
