@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Firebase Initialization
 cred = credentials.Certificate("serviceAccountKey.json")  # Replace with your path
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://water-quality-monitor-cdf19-default-rtdb.asia-southeast1.firebasedatabase.app/'  # Replace with your database URL
+    'databaseURL': 'your firebase database url'  # Replace with your database URL
 })
 
 @app.route('/')
